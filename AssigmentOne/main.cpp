@@ -29,21 +29,21 @@ int main() {
 }
 
 void func1(){
-    char c;
+    Menu m;
     cout << "Hello from function 1" << endl;
-    waitKey(); // call waitKey function
+    m.waitKey(); // call waitKey function
 }
 
 void func2(){
-    char c;
+    Menu m;
     cout << "Hello from function 2" << endl;
-    waitKey(); // call waitKey function
+    m.waitKey(); // call waitKey function
 }
 
 void func3(){
-    char c;
+    Menu m;
     cout << "Hello from function 3" << endl;
-    waitKey(); // call waitKey function
+    m.waitKey(); // call waitKey function
 }
 
 void Exit(){

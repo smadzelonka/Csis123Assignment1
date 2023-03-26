@@ -37,7 +37,7 @@ void Menu::runSelection(){
         this->mi[select - 1].func();
 }
 
-void waitKey() {
+void Menu::waitKey() {
     cout << "Press any key to continue...";
     cin.ignore(); // ignore any characters already in the input buffer
     cin.get(); // wait for the user to input a character
