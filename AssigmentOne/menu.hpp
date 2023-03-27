@@ -24,8 +24,8 @@ public:
     Menu();
     void addMenu(char *Description, void (*f) ());
     void runMenu();
+    void waitKey(); // declare waitKey function
 };
 
-void waitKey(); // declare waitKey function
 
 #endif /* menu_hpp */
